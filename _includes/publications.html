@@ -7,38 +7,36 @@
       {% endfor %}
     {% else %}
       {% for item in site.data.publications.index %}
-        <p>
-            <a class="label {{ item.label }}" href="{{ item.homepage }}">
-                {{ item.acronym }}
-            </a>
-            <a><strong>{{ item.title }}</strong></a>
+        <a class="label {{ item.label }}" href="{{ item.homepage }}">
+            {{ item.acronym }}
+        </a>
+        <a><strong>{{ item.title }}</strong></a>
 
-            <br>
+        <br>
 
-            <a>
-                {{ item.authors }}
-            </a>
+        <a>
+            {{ item.authors }}
+        </a>
 
-            <br>
+        <br>
 
-            <a >
-                {{ item.proceeding }} (<strong>{{ item.acronym }}</strong>),
-                {{ item.place }},
-                {{ item.date }}
-            </a>
-            <br>
-            {% if item.others %}
-                {% if item.others.arxiv %}
-                    <a href="{{ item.others.arxiv }}"><strong>arxiv </strong></a>
-                {% endif %}
-                {% if item.others.slides %}
-                    <a href="{{ item.others.slides }}"><strong>slides </strong></a>
-                {% endif %}
-                {% if item.others.presentation %}
-                    <a href="{{ item.others.presentation }}"><strong>presentation </strong></a>
-                {% endif %}
+        <a >
+            {{ item.proceeding }} (<strong>{{ item.acronym }}</strong>),
+            {{ item.place }},
+            {{ item.date }}
+        </a>
+        <br>
+        {% if item.others %}
+            {% if item.others.arxiv %}
+                <a href="{{ item.others.arxiv }}"><strong>arxiv </strong></a>
             {% endif %}
-        </p>
+            {% if item.others.slides %}
+                <a href="{{ item.others.slides }}"><strong>slides </strong></a>
+            {% endif %}
+            {% if item.others.presentation %}
+                <a href="{{ item.others.presentation }}"><strong>presentation </strong></a>
+            {% endif %}
+        {% endif %}
       {% endfor %}
     {% endif %}
   </div>
