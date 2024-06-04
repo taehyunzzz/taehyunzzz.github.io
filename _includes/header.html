@@ -1,23 +1,15 @@
-<header class="header">
-
-  <button aria-expanded="false" aria-controls="menu" aria-label="Click to open the menu" class="bt-menu"><svg class="icon-top icon-menu"><use xlink:href="#icon-menu"></use></svg></button>
-    <nav class="menu">
-      <a aria-label="Back to home page" href="/"> Home </a>
-      <a aria-label="Get to know me a little more" href="/about"> About </a>
-      <a aria-label="My blog" href="/blog"> Blog </a>
-      <a aria-label="Talk to me" href="/contact"> Contact </a>
-    </nav>
-  
-  <button aria-expanded="false" aria-controls="search-container" aria-label="Search" class="bt-search"><svg class="icon-top icon-search"><use xlink:href="#icon-search"></use></svg></button>
-  <div id="search-container">
-    <input type="text" id="search-input" placeholder="Search blog posts...">
-    <button aria-label="Close Search Toolbar" class="bt-close"><svg class="icon-top icon-close"><use xlink:href="#icon-close"></use></svg></button>
-    <ul id="results-container"></ul>
+<header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom">
+  <div>
+    <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
+      <span class="fs-4 fw-bold">{{ site.title }}</span>
+    </a>
+    <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
+      <span>{{ site.description }}</span>
+    </a>
   </div>
-
-  <hgroup class="title">
-    <h1> <a href="/"> Blade Theme </a> </h1>  
-    <h2> <a href="/"> A simple Jekyll blog theme </a> </h2>
-  </hgroup>
-
+  <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+    {% for item in site.data.settings.menu %}
+      <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
 </header>

@@ -1,40 +1,4 @@
-# Site settings
-title: Welcome to Taehyun's Page!
-url: "https://taehyunzzz.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-
-# Author settings
-author:
-  name     : Taehyun Kim
-  bio      : Ph.D candidate @ Computer Architecture and Parallel Processing Lab (CAPPLab), Seoul National University
-  email    : taehyunzzz@snu.ac.kr
-  linkedin : https://www.linkedin.com/in/taehyun-kim-887601168/
-
-#SEO settings
-logo: /assets/img/img-blog.png/ # Site logo URL
-twitter_username: mateussousam # Twitter username
-facebook:
-    app_id: 1445035275808959 # App ID
-    publisher: https://www.facebook.com/mateus.sousamedeiros # URL of the Facebook page
-    admins: 100000229048939 # Facebook user ID that manages the page
-
-# Build settings
-permalink: /:title/
-markdown: kramdown
-paginate: 5
-paginate_path: "/blog/page/:num"
-
-gems:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-
-css_folder:  "/assets/css"
-js_folder:  "/assets/js"
-img_folder:  "/assets/img"
-sass:
-    style: compressed
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "academic" # the name of your site, e.g. ACME Corp.
+description: "a Jekyll theme for academia"
