@@ -1,14 +1,13 @@
 # Site settings
-title: Blade Theme
-description: A simple Jekyll blog theme developed by Mateus Medeiros 
-url: "http://mateussmedeiros.github.io/blade-theme/" # the base hostname & protocol for your site, e.g. http://example.com
+title: Welcome to Taehyun's Page!
+url: "https://taehyunzzz.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
 author:
-  name     : Mateus Medeiros
-  bio      : Front End Developer passionate about new technologies. I am passionate about what I do and I try to learn more every day.
-  email    : mateus.sousamedeiros@gmail.com
-  twitter  : https://twitter.com/mateussousam
+  name     : Taehyun Kim
+  bio      : Ph.D candidate @ Computer Architecture and Parallel Processing Lab (CAPPLab), Seoul National University
+  email    : taehyunzzz@snu.ac.kr
+  linkedin : https://www.linkedin.com/in/taehyun-kim-887601168/
 
 #SEO settings
 logo: /assets/img/img-blog.png/ # Site logo URL
