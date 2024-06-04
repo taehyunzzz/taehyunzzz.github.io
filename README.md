@@ -81,3 +81,8 @@ To set up your environment to develop this theme, run `bundle install`, then run
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Prerequisites
+
+- install latest [ruby](https://github.com/ruby/ruby/) ([build](https://docs.ruby-lang.org/en/master/contributing/building_ruby_md.html))
+- install latest [rubygems](https://github.com/rubygems/rubygems)
