@@ -29,7 +29,7 @@
                 {{ item.date }}
             </a>
 
-            {% if item.others %}
+            <!-- {% if item.others %}
                 {% if item.others.arxiv %}
                     <a href="{{ item.others.arxiv }}">{{ arxiv }}</a>
                 {% endif %}
@@ -39,10 +39,12 @@
                 {% if item.others.presentation %}
                     <a href="{{ item.others.presentation }}">{{ arxiv }}</a>
                 {% endif %}
-                <!-- {% for key, url in item.others() %}
+            {% endif %} -->
+            <!-- {% if item.others %}
+                {% for key, url in item.others() %}
                     <a href="{{ url }}">{{ key }}</a>
-                {% endfor %} -->
-            {% endif %}
+                {% endfor %}
+            {% endif %} -->
         </p>
       {% endfor %}
     {% endif %}
