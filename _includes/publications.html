@@ -30,7 +30,16 @@
             </a>
 
             {% if item.others %}
-                {% for key, url in item.others %}
+                <!-- {% if item.others.arxiv %}
+                    <a href="{{ item.others.arxiv }}">{{ arxiv }}</a>
+                {% endif %}
+                {% if item.others.slides %}
+                    <a href="{{ item.others.slides }}">{{ arxiv }}</a>
+                {% endif %}
+                {% if item.others.presentation %}
+                    <a href="{{ item.others.presentation }}">{{ arxiv }}</a>
+                {% endif %} -->
+                {% for key, url in item.others() %}
                     <a href="{{ url }}">{{ key }}</a>
                 {% endfor %}
             {% endif %}
