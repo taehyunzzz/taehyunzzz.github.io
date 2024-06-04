@@ -7,9 +7,9 @@
       {% endfor %}
     {% else %}
       {% for item in site.data.publications.index %}
-        <span class="label {{ item.label }}" href="{{ item.homepage }}">
+        <a class="label {{ item.label }}" href="{{ item.homepage }}">
             {{ item.acronym }}
-        </span>
+        </a>
         <a><strong>{{ item.title }}</strong></a>
 
         <br>
