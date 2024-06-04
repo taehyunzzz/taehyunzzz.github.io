@@ -16,8 +16,10 @@ index:
     date: "June. 2024",
     place: "San Francisco, CA",
     others: {
-      arxiv: "https://arxiv.org/abs/2405.18832"
+      arxiv: "https://arxiv.org/abs/2405.18832",
+      toappear: 1,
     }
+
   }
 
 - {
