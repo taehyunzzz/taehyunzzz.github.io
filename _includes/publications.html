@@ -111,7 +111,7 @@
       {% endfor %}
     {% else %}
       {% for item in site.data.publications.index %}
-        <a class="label label-{{ item.label }}" href="{{ item.homepage }}" style="display:inline-block">
+        <a class="label label-{{ item.label }} text-{{ item.label}}" href="{{ item.homepage }}">
             {{ item.acronym }}
         </a>
         <a><strong>{{ item.title }}</strong></a>
