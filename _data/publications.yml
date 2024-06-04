@@ -13,7 +13,7 @@ index:
     proceeding: "61th ACM/IEEE Design Automation Conference",
     homepage: "https://www.dac.com/",
     date: "June. 2024",
-    addr: "San Francisco, CA",
+    place: "San Francisco, CA",
     others: {
       arxiv: "https://arxiv.org/abs/2405.18832"
     }
