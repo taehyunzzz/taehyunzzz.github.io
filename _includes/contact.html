@@ -2,14 +2,13 @@
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Contact</h3>
     {% for contact in site.data.settings.contacts %}
-    <div class="row g-2 mb-2">
+    <div class="row g-5 mb-5">
       <div class="col-md-6">
         <h4>{{ contact.name }}</h4>
         <p>{{ contact.title }} | {{ contact.department }}</p>
         <p>{{ contact.institution }} | {{ contact.institution_address }}</p>
         <p>Phone: {{ contact.phone }}</p>
-        <p>Email1: {{ contact.email1 }}</p>
-        <p>Email2: {{ contact.email2 }}</p>
+        <p>Email: {{ contact.email }}</p>
         <p>Office: {{ contact.office }}</p>
       </div>
       <div class="col-md-6">
