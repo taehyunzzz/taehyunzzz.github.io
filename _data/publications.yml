@@ -12,10 +12,11 @@ index:
     title: "MoNDE: Mixture of Near-Data Experts for Large-Scale Sparse Models",
     authors: "Taehyun Kim, Kwanseok Choi, Youngmock Cho, Jaehoon Cho, Hyuk-Jae Lee, Jaewoong Sim",
     proceeding: "61th ACM/IEEE Design Automation Conference",
-    homepage: "dac.com",
+    homepage: "https://www.dac.com/",
     date: "June. 2024",
-    arxiv: "https://arxiv.org/abs/2405.18832",
-    others: "[arxiv](https://arxiv.org/abs/2405.18832)"
+    others: {
+      arxiv: "https://arxiv.org/abs/2405.18832"
+    }
   }
 # - {name: 'Shock interactions, turbulence and the origin of the stellar mass spectrum. Ralph E. Pudritz and N. K.-R. Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
 # - {name: 'Low shear diffusion central schemes for particle methods. Jonathan Panuelos, James Wadsley, Nicholas Kevlahan', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/jcp_v414.pdf'}

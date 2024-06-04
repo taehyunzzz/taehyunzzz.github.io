@@ -14,22 +14,25 @@
             <a>
                 {{ item.title }}
             </a>
-            <a >
-                {{ item.proceeding }} (<strong>{{ item.acronym }}</strong>)
-            </a>
+
             <a>
                 {{ item.authors }}
             </a>
+
+            <a >
+                {{ item.proceeding }} (<strong>{{ item.acronym }}</strong>)
+            </a>,
             <a>
                 {{ item.addr }}
-            </a>
+            </a>,
             <a>
                 {{ item.date }}
             </a>
+
             {% if item.others %}
-                <a>
-                    {{ item.others }}
-                </a>
+                {% for key, url in item.others %}
+                    <a href="{{ url }}">{{ key }}</a>
+                {% endfor %}
             {% endif %}
         </p>
       {% endfor %}
