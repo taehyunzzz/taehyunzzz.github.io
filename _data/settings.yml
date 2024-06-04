@@ -28,8 +28,9 @@ contacts:
     department: 'Electrical & Computer Engineering',
     institution: 'Seoul National University',
     institution_address: 'Gwanak-ro 1, Gwanak, Seoul, South Korea',
-    phone: '(+82)02-880-1825',
-    email: 'taehyunzzz@snu.ac.kr or kimth@capp.snu.ac.kr',
+    phone: '(+82) 02-880-1825',
+    email1: 'taehyunzzz@snu.ac.kr',
+    email2: 'kimth@capp.snu.ac.kr',
     office: 'Inter-Unitersity Semiconductor Research Center Building 104-1',
     image: 'assets/img/contact.jpg'
   }
