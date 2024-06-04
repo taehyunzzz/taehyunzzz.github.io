@@ -1,17 +1,5 @@
 # shown in home
 featured:
-- {
-    badge: "label-primary",
-    acronym: "DAC-61",
-    title: "MoNDE: Mixture of Near-Data Experts for Large-Scale Sparse Models",
-    authors: "Taehyun Kim, Kwanseok Choi, Youngmock Cho, Jaehoon Cho, Hyuk-Jae Lee, Jaewoong Sim",
-    proceeding: "61th ACM/IEEE Design Automation Conference",
-    homepage: "https://www.dac.com/",
-    date: "June. 2024",
-    others: {
-      arxiv: "https://arxiv.org/abs/2405.18832"
-    }
-  }
 
 # shown in publications
 index:
@@ -23,7 +11,7 @@ index:
     proceeding: "61th ACM/IEEE Design Automation Conference",
     homepage: "https://www.dac.com/",
     date: "June. 2024",
-    others: {
-      arxiv: "https://arxiv.org/abs/2405.18832"
-    }
+    # others: {
+    #   arxiv: "https://arxiv.org/abs/2405.18832"
+    # }
   }
