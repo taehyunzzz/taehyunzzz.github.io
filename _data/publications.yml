@@ -7,7 +7,7 @@ featured:
 # shown in publications
 index:
 - {
-    label: "danger",
+    label: "primary",
     acronym: "DAC-61",
     title: "MoNDE: Mixture of Near-Data Experts for Large-Scale Sparse Models",
     authors: "Taehyun Kim, Kwanseok Choi, Youngmock Cho, Jaehoon Cho, Hyuk-Jae Lee, Jaewoong Sim",
@@ -21,7 +21,7 @@ index:
   }
 
 - {
-    label: "primary",
+    label: "success",
     acronym: "HPCA-27",
     title: "GradPIM: A Practical Processing-in-DRAM Architecture for Gradient Descent",
     authors: "Heesu Kim, Hanmin Park, Taehyun Kim, Kwanheum Cho, Eojin Lee, Soojung Ryu, Hyuk-Jae Lee, Kiyoung Choi, Jinho Lee",

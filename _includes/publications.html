@@ -65,7 +65,32 @@
 <span class="badge badge-inverse">10</span> -->
 
 <style>
-.label[href] {
+.label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+a.label:hover, a.label:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.label:empty {
+  display: none;
+}
+.label {
+  position: relative;
+  top: -1px;
+}
+
+/* .label[href] {
   padding: 1px 9px 2px;
   font-size: 12.025px;
   font-weight: bold;
@@ -85,7 +110,7 @@
   color: #ffffff;
   text-decoration: none;
   cursor: pointer;
-}
+} */
 
 .label-default {
   background-color: #777;
@@ -115,6 +140,7 @@
 .label-info[href]:focus {
   background-color: #31b0d5;
 }
+
 .label-warning {
   background-color: #f0ad4e;
 }
@@ -122,42 +148,13 @@
 .label-warning[href]:focus {
   background-color: #ec971f;
 }
+
 .label-danger {
   background-color: #d9534f;
 }
 .label-danger[href]:hover,
 .label-danger[href]:focus {
   background-color: #c9302c;
-}
-.label-micro {
-  background-color: #d0a545;
-}
-.label-micro[href]:hover,
-.label-micro[href]:focus {
-  background-color: #f0a545;
-}
-.label-pact {
-  background-color: #74baac;
-}
-.label-pact[href]:hover,
-.label-pact[href]:focus {
-  background-color: #5eae9e;
-}
-
-.label-hpca {
-  background-color: #a999ed;
-}
-.label-hpca[href]:hover,
-.label-hpca[href]:focus {
-  background-color: #b3a3f9;
-}
-
-.label-fpga {
-  background-color: #6fa5c4;
-}
-.label-fpga [href]:hover,
-.label-fpga [href]:focus {
-  background-color: #6fa5c4;
 }
 
 .label-others {
@@ -166,19 +163,6 @@
 .label-others[href]:hover,
 .label-others[href]:focus {
   background-color: #3fbaac;
-}
-.label-others-2 {
-  background-color: #a6c468;
-}
-.label-others-2[href]:hover,
-.label-others-2[href]:focus {
-  background-color: #b7da6e;
-}
-
-.label-notice {
-  background-color: #a1858c;
-  /*background-color: #d9534f;*/
-  font-size: 13px;
 }
 </style>
 
