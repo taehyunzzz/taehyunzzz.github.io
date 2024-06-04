@@ -29,13 +29,13 @@
             <br>
             {% if item.others %}
                 {% if item.others.arxiv %}
-                    <a href="{{ item.others.arxiv }}">arxiv</a>
+                    <a href="{{ item.others.arxiv }}"><strong>arxiv </strong></a>
                 {% endif %}
                 {% if item.others.slides %}
-                    <a href="{{ item.others.slides }}">slides</a>
+                    <a href="{{ item.others.slides }}"><strong>slides </strong></a>
                 {% endif %}
                 {% if item.others.presentation %}
-                    <a href="{{ item.others.presentation }}">presentation</a>
+                    <a href="{{ item.others.presentation }}"><strong>presentation </strong></a>
                 {% endif %}
             {% endif %}
         </p>
