@@ -14,17 +14,17 @@
             <a>
                 {{ item.title }}
             </a>
-
+            <br>
             <a>
                 {{ item.authors }}
             </a>
-
+            <br>
             <a >
                 {{ item.proceeding }} (<strong>{{ item.acronym }}</strong>),
                 {{ item.addr }},
                 {{ item.date }}
             </a>
-
+            <br>
             {% if item.others %}
                 {% if item.others.arxiv %}
                     <a href="{{ item.others.arxiv }}">arxiv</a>
