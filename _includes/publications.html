@@ -8,7 +8,7 @@
     {% else %}
       {% for item in site.data.publications.index %}
         <p>
-            <a class="label" href="{{ item.homepage }}">
+            <a class="label {{ item.badge }} " href="{{ item.homepage }}">
                 {{ item.acronym }}
             </a>
             <a>
@@ -29,22 +29,17 @@
                 {{ item.date }}
             </a>
 
-            <!-- {% if item.others %}
+            {% if item.others %}
                 {% if item.others.arxiv %}
-                    <a href="{{ item.others.arxiv }}">{{ arxiv }}</a>
+                    <a href="{{ item.others.arxiv }}">arxiv</a>
                 {% endif %}
                 {% if item.others.slides %}
-                    <a href="{{ item.others.slides }}">{{ arxiv }}</a>
+                    <a href="{{ item.others.slides }}">slides</a>
                 {% endif %}
                 {% if item.others.presentation %}
-                    <a href="{{ item.others.presentation }}">{{ arxiv }}</a>
+                    <a href="{{ item.others.presentation }}">presentation</a>
                 {% endif %}
-            {% endif %} -->
-            <!-- {% if item.others %}
-                {% for key, url in item.others() %}
-                    <a href="{{ url }}">{{ key }}</a>
-                {% endfor %}
-            {% endif %} -->
+            {% endif %}
         </p>
       {% endfor %}
     {% endif %}
