@@ -1,25 +1,35 @@
 menu:
-- {name: 'people', url: '/people'}
+# - {name: 'people', url: '/people'}
 - {name: 'publications', url: '/publications'}
-- {name: 'courses', url: '/courses'}
+# - {name: 'courses', url: '/courses'}
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 
-people:
-- {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
-- {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
-- {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
+# people:
+# - {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
+# - {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
+# - {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
 
-courses:
-- {name: 'Vector Calculus', url: 'vector-calculus'}
-- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
-- {name: 'Stellar Structures', url: 'stellar-structures'}
+# courses:
+# - {name: 'Vector Calculus', url: 'vector-calculus'}
+# - {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
+# - {name: 'Stellar Structures', url: 'stellar-structures'}
 
 social:
-- {icon: 'github', link: 'https://github.com/LeNPaul'}
-- {icon: 'twitter', link: 'https://twitter.com/paululele'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
+- {icon: 'github', link: 'https://github.com/taehyunzzz'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/taehyun-kim-887601168/'}
+- {icon: 'google scholar', link: 'https://scholar.google.com/citations?user=ZlCHolkAAAAJ&hl=ko&oi=sra'}
+- {icon: 'orcid', link: 'https://orcid.org/my-orcid?orcid=0000-0003-3005-2066'}
 
 contacts:
-- {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
+- {
+    name: 'Taehyun Kim',
+    title: 'Ph.d Candidate',
+    department: 'Electrical & Computer Engineering',
+    institution: 'Seoul National University',
+    institution_address: 'Gwanak-ro 1, Gwanak, Seoul, South Korea',
+    phone: '(+82)02-880-1825',
+    email: 'taehyunzzz@snu.ac.kr or kimth@capp.snu.ac.kr',
+    office: 'Inter-Unitersity Semiconductor Research Center Building 104-1',
+    image: 'assets/img/contact.jpg'
+  }

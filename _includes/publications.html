@@ -7,7 +7,31 @@
       {% endfor %}
     {% else %}
       {% for item in site.data.publications.index %}
-        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+        <p>
+            <a class="label {{ item.badge }}" href="{{ item.homepage }}">
+                {{ item.acronym }}
+            </a>
+            <a>
+                {{ item.title }}
+            </a>
+            <a >
+                {{ item.proceeding }} (<strong>{{ item.acronym }}</strong>)
+            </a>
+            <a>
+                {{ item.authors }}
+            </a>
+            <a>
+                {{ item.addr }}
+            </a>
+            <a>
+                {{ item.date }}
+            </a>
+            {% if item.others %}
+                <a>
+                    {{ item.others }}
+                </a>
+            {% endif %}
+        </p>
       {% endfor %}
     {% endif %}
   </div>
