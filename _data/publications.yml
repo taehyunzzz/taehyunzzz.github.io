@@ -6,7 +6,7 @@ featured:
 # shown in publications
 index:
 - {
-    badge: "label-primary",
+    badge: "badge-primary",
     acronym: "DAC-61",
     title: "MoNDE: Mixture of Near-Data Experts for Large-Scale Sparse Models",
     authors: "Taehyun Kim, Kwanseok Choi, Youngmock Cho, Jaehoon Cho, Hyuk-Jae Lee, Jaewoong Sim",
