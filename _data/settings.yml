@@ -13,9 +13,9 @@ contacts:
 - {
     name: 'Taehyun Kim',
     title: 'Ph.D. Candidate',
-    department: 'Electrical & Computer Engineering',
+    department: 'Electrical and Computer Engineering',
     institution: 'Seoul National University',
-    institution_address: 'Gwanak-ro 1, Gwanak, Seoul, South Korea',
+    institution_address: 'Gwanak-ro 1, Seoul, South Korea',
     phone: '(+82) 02-880-1825',
     email: 'taehyunzzz@snu.ac.kr / kimth@capp.snu.ac.kr',
     office: 'Inter-Unitersity Semiconductor Research Center Building 104-1',
