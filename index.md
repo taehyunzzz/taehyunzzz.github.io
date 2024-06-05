@@ -9,10 +9,9 @@ Processing Lab ([CAPPLab](http://capp.snu.ac.kr/)) led by Professor Hyuk-Jae Lee
 Before joining the research group, I received my B.S. degree from ECE, Seoul
 National University.
 
-My current research interests focus primarily on resolving current hardware
-limitations on running large-scale AI models by applying system optimizations
-and designing practical processing-in-memory (PIM) and near-data processing (NDP)
-solutions.
+My current research interests focus primarily on resolving hardware limitations
+on running large-scale AI models by applying system optimizations and designing
+practical processing-in-memory (PIM) and near-data processing (NDP) solutions.
 
-I am looking forward to engaging in discussions and collaborations regarding aligned
-research, so please feel free to contact me through my contact channels!
+I look forward to engaging in discussions and collaborations regarding aligned
+research, so please feel free to contact me!
