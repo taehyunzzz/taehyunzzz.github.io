@@ -3,6 +3,36 @@
 
 # shown in home (deprecated)
 featured:
+- {
+    label: "primary",
+    acronym: "DAC-61",
+    title: "MoNDE: Mixture of Near-Data Experts for Large-Scale Sparse Models",
+    authors: "Taehyun Kim, Kwanseok Choi, Youngmock Cho, Jaehoon Cho, Hyuk-Jae Lee, Jaewoong Sim",
+    proceeding: "61th ACM/IEEE Design Automation Conference",
+    homepage: "https://www.dac.com/",
+    date: "June. 2024",
+    place: "San Francisco, CA",
+    others: {
+      arxiv: "https://arxiv.org/abs/2405.18832",
+      toappear: 1,
+    }
+  }
+
+- {
+    label: "info",
+    acronym: "HPCA-27",
+    title: "GradPIM: A Practical Processing-in-DRAM Architecture for Gradient Descent",
+    authors: "Heesu Kim, Hanmin Park, Taehyun Kim, Kwanheum Cho, Eojin Lee, Soojung Ryu, Hyuk-Jae Lee, Kiyoung Choi, Jinho Lee",
+    proceeding: "27th IEEE International Symposium on High-Performance Computer Architecture",
+    homepage: "https://hpca-conf.org/2021/",
+    date: "Jan. 2021",
+    place: "Seoul, South Korea",
+    others: {
+      proceeding: "https://ieeexplore.ieee.org/abstract/document/9407195",
+      arxiv: "https://arxiv.org/abs/2102.07511"
+    }
+  }
+
 
 # shown in publications
 index:

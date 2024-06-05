@@ -82,9 +82,50 @@
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
     {% if page.title == "Home" %}
-      {% for item in site.data.publications.featured %}
-        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+      {% for item in site.data.publications.index %}
+        <a class="label label-{{ item.label }} text-white" href="{{ item.homepage }}">
+            {{ item.acronym }}
+        </a>
+        <a><strong>{{ item.title }}</strong></a>
+
+        <br>
+
+        <a>
+            {{ item.authors }}
+        </a>
+
+        <br>
+
+        <a >
+            {{ item.proceeding }} (<strong>{{ item.acronym }}</strong>),
+            {{ item.place }},
+            {{ item.date }}
+        </a>
+        <br>
+        {% if item.others %}
+            {% if item.others.arxiv %}
+                <a href="{{ item.others.arxiv }}"><strong>arxiv</strong></a><span> </span>
+            {% endif %}
+            {% if item.others.proceeding %}
+                <a href="{{ item.others.proceeding }}"><strong>proceeding</strong></a><span> </span>
+            {% endif %}
+            {% if item.others.slides %}
+                <a href="{{ item.others.slides }}"><strong>slides</strong></a><span> </span>
+            {% endif %}
+            {% if item.others.poster %}
+                <a href="{{ item.others.poster }}"><strong>poster</strong></a><span> </span>
+            {% endif %}
+            {% if item.others.presentation %}
+                <a href="{{ item.others.presentation }}"><strong>presentation</strong></a><span> </span>
+            {% endif %}
+            {% if item.others.toappear %}
+                <span><i>(to appear)</i></span>
+            {% endif %}
+        {% endif %}
+        <br>
+        <br>
       {% endfor %}
+    {% endif %}
     {% else %}
       {% for item in site.data.publications.index %}
         <a class="label label-{{ item.label }} text-white" href="{{ item.homepage }}">
