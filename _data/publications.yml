@@ -19,11 +19,38 @@ index:
       arxiv: "https://arxiv.org/abs/2405.18832",
       toappear: 1,
     }
+  }
 
+- {
+    label: "warning",
+    acronym: "THMS",
+    title: "Virtual keyboards with real-time and robust deep learning-based gesture recognition",
+    authors: "Tae-Ho Lee, Sunwoong Kim, Taehyun Kim, Jin-Sung Kim, Hyuk-Jae Lee",
+    proceeding: "IEEE Transactions on Human-Machine Systems",
+    homepage: "",
+    date: "April. 2022",
+    place: "Volume: 52, Issue: 4",
+    others: {
+      proceeding: "https://ieeexplore.ieee.org/abstract/document/9764762"
+    }
   }
 
 - {
     label: "success",
+    acronym: "AICAS",
+    title: "Smart refrigerator inventory management using convolutional neural networks",
+    authors: "Tae-Ho Lee, Shin-Woo Kang, Taehyun Kim, Jin-Sung Kim, Hyuk-Jae Lee",
+    proceeding: "2021 IEEE 3rd International Conference on Artificial Intelligence Circuits and Systems",
+    homepage: "https://catavault.ieee-cas.org/events/aicas-2021",
+    date: "June. 2021",
+    place: "Incheon, South Korea",
+    others: {
+      proceeding: "https://ieeexplore.ieee.org/abstract/document/9458527",
+    }
+  }
+
+- {
+    label: "info",
     acronym: "HPCA-27",
     title: "GradPIM: A Practical Processing-in-DRAM Architecture for Gradient Descent",
     authors: "Heesu Kim, Hanmin Park, Taehyun Kim, Kwanheum Cho, Eojin Lee, Soojung Ryu, Hyuk-Jae Lee, Kiyoung Choi, Jinho Lee",
