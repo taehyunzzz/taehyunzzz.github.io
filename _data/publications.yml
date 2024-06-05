@@ -37,7 +37,7 @@ index:
 
 - {
     label: "success",
-    acronym: "AICAS",
+    acronym: "AICAS-3",
     title: "Smart refrigerator inventory management using convolutional neural networks",
     authors: "Tae-Ho Lee, Shin-Woo Kang, Taehyun Kim, Jin-Sung Kim, Hyuk-Jae Lee",
     proceeding: "2021 IEEE 3rd International Conference on Artificial Intelligence Circuits and Systems",
