@@ -11,7 +11,7 @@ National University.
 
 My current research interests focus primarily on resolving hardware limitations
 on running large-scale AI models by applying system optimizations and designing
-practical processing-in-memory (PIM) and near-data processing (NDP) solutions.
+practical processing-in-memory (PIM) / near-data processing (NDP) solutions.
 
 I look forward to engaging in discussions and collaborations regarding aligned
 research, so please feel free to contact me!
