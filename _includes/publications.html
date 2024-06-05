@@ -124,6 +124,7 @@
         {% endif %}
         <br>
         <br>
+      {% endfor %}
     {% else %}
       {% for item in site.data.publications.index %}
         <a class="label label-{{ item.label }} text-white" href="{{ item.homepage }}">
