@@ -16,7 +16,7 @@
 <h4 style="margin:0 10px 0;">Republic of Korea Army</h4>
 
 <ul style="margin:0 0 5px;">
-  <li>Administrative staff @ The Armed Forces Medical Command</li>
+  <li>Administrative staff @ The Armed Forces Medical Command (2015-2016)</li>
 </ul>
 
 <br>
