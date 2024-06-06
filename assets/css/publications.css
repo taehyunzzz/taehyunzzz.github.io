@@ -10,9 +10,7 @@
 }
 
 .img-container img {
-  max-width: 180px;
-  max-height: 90px;
-  width: auto; /* Fixed width of the image */
+  width: 190px; /* Fixed width of the image */
   height: auto; /* Maintain aspect ratio */
 }
 
