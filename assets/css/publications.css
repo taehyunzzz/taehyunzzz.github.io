@@ -3,7 +3,7 @@
 .img-container {
   display: block;
   width: 200px; /* Total width including padding */
-  height: auto;
+  height: 150px;
   padding: 10px; /* Symmetric padding */
   background: #f0f0f0; /* Background color for padding area */
   box-sizing: border-box; /* Includes padding in the width */
