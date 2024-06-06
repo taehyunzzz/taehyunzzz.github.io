@@ -1,5 +1,19 @@
 :root { --global-bg-color: #ffffff; --global-code-bg-color: rgba(181, 9, 172, 0.05); --global-text-color: #000000; --global-text-color-light: #828282; --global-theme-color: #002D72; --global-hover-color: #ffb81c; --global-footer-bg-color: #1c1c1c; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-distill-app-color: #828282; }
 
+.img-container {
+  display: block;
+  width: 120px; /* Total width including padding */
+  height: auto;
+  padding: 10px; /* Symmetric padding */
+  background: #f0f0f0; /* Background color for padding area */
+  box-sizing: border-box; /* Includes padding in the width */
+}
+
+.img-container img {
+  width: 100px; /* Fixed width of the image */
+  height: auto; /* Maintain aspect ratio */
+}
+
 .badge {
     display: inline-block;
     padding: 0.2em 0.3em;

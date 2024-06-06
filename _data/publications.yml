@@ -27,7 +27,7 @@ main:
     conference_short: THMS
     conference: IEEE Transactions on Human-Machine Systems, Volume 52 Issue 4, April 2022.
     proceeding: https://ieeexplore.ieee.org/abstract/document/9764762
-    image: ./assets/img/placeholder.jpg
+    image: ./assets/img/keyboard-teaser.png
     badge: 2
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
@@ -39,7 +39,7 @@ main:
     conference_short: AICAS-3
     conference: <a href="https://catavault.ieee-cas.org/events/aicas-2021">2021 IEEE 3rd International Conference on Artificial Intelligence Circuits and Systems</a>, June 2021.
     proceeding: https://ieeexplore.ieee.org/abstract/document/9458527
-    image: ./assets/img/placeholder.jpg
+    image: ./assets/img/smart-fridge-teaser.png
     badge: 3
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
