@@ -8,7 +8,7 @@ My name is Taehyun Kim and I am pursuing a Ph.D. degree in ECE, Seoul National U
 ## Research Interests
 - **Large Transformer Models:** Language, Vision, Multi-modal AI
 - **Efficient AI:** Parameter-Efficient Finetuning (PEFT), Pruning, Quantization
-- **Processing-in-Memory:** Processing-in-Memory (PIM) & near-data processing (NDP)
+- **Hardware Architecture:** Processing-in-Memory (PIM) & Near-Data Processing (NDP)
 
 ## Education
 - **Seoul National University (2019-Present):** Ph.D. Electrical & Computer Engineering (Advisor: Prof. <a href="http://capp.snu.ac.kr/?p=people">Hyuk-Jae Lee</a>, GPA: 3.94/4.30)
@@ -18,7 +18,11 @@ My name is Taehyun Kim and I am pursuing a Ph.D. degree in ECE, Seoul National U
 
 <!-- {% include_relative _includes/projects.md %} -->
 
+<!-- {% include_relative _includes/patents.md %} -->
+
 {% include_relative _includes/services.md %}
+
+<br>
 
 ## Skills
 - **Programming/Tools:** C/C++, Python, CUDA, Verilog, Synopsys Design Compiler
