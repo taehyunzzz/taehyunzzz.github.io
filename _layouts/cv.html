@@ -48,14 +48,13 @@ layout: default
     </div>
 
     <!-- Professional Services -->
-    <div class="row g-5 mb-5">
+    <div class="row">
       <div class="col-md-2">
         <h4>Services</h4>
       </div>
       <div class="col-lg-10">
         {% for section in site.data.cv.services %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+          <li>{{ section.entry }}</li>
         {% endfor %}
       </div>
     </div>
