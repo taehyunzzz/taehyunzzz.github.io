@@ -2,7 +2,7 @@
 
 .img-container {
   display: block;
-  width: 120px; /* Total width including padding */
+  width: 150px; /* Total width including padding */
   height: auto;
   padding: 10px; /* Symmetric padding */
   background: #f0f0f0; /* Background color for padding area */
@@ -10,7 +10,9 @@
 }
 
 .img-container img {
-  width: 100px; /* Fixed width of the image */
+  max-width: 120px;
+  max-height: 90px;
+  width: auto; /* Fixed width of the image */
   height: auto; /* Maintain aspect ratio */
 }
 
