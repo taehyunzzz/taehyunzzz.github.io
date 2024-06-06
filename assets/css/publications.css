@@ -2,9 +2,7 @@
 
 .img {
   max-width: 200px;
-  max-height: 150px;
-  width: 190px; /* Fixed width of the image */
-  height: auto; /* Maintain aspect ratio */
+  height: auto;
 }
 
 .badge {
