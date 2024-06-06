@@ -7,11 +7,8 @@ My name is Taehyun Kim and I am pursuing a Ph.D. degree in ECE, Seoul National
 University. Currently, I am a member of the Computer Architecture and Parallel
 Processing Lab ([CAPPLab](http://capp.snu.ac.kr/)) led by Professor Hyuk-Jae Lee.
 Before joining the research group, I received my B.S. degree from ECE, Seoul
-National University.
-
-My current research interests focus primarily on resolving hardware limitations
-on running large-scale AI models by applying system optimizations and designing
-practical processing-in-memory (PIM) / near-data processing (NDP) solutions.
-
-I look forward to engaging in discussions and collaborations regarding aligned
-research, so please feel free to contact me!
+National University. My current research interests focus primarily on resolving
+hardware limitations on running large-scale AI models by applying system
+optimizations and designing practical processing-in-memory (PIM) / near-data
+processing (NDP) solutions. I look forward to engaging in discussions and
+collaborations regarding aligned research, so please feel free to contact me!
