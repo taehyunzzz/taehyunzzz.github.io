@@ -25,10 +25,8 @@ My name is Taehyun Kim and I am pursuing a Ph.D. degree in ECE, Seoul National U
 
 {% include_relative _includes/services.md %}
 
+{% include_relative _includes/skills.md %}
 
-## Skills
-- **Programming/Tools:** C/C++, Python, CUDA, Verilog, Synopsys Design Compiler
-- **Languages:** English, Korean, Japanese
 
 <!-- ## News -->
 <!-- - **[Feb. 2024]** Our paper MoNDE is accepted to DAC 2024. See you in San Francisco! -->
