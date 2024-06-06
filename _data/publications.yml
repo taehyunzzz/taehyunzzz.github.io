@@ -1,22 +1,59 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  # - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
+  #   authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
+  #   conference_short: MICCAI
+  #   conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
+  #   pdf: https://arxiv.org/pdf/2306.00988.pdf
+  #   code: https://github.com/MrGiovanni/ContinualLearning
+  #   bibtex: https://bib.yliu.me/MICCAI23.txt
+  #   image: ./assets/img/teaser_example_2.png
+  #   notes: Early Accept
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "MoNDE: Mixture of Near-Data Experts for Large-Scale Sparse Models"
+    authors: <strong>Taehyun Kim</strong>, Kwanseok Choi, Youngmock Cho, Jaehoon Cho, Hyuk-Jae Lee, Jaewoong Sim"
+    conference_short: DAC-61
+    conference: (61th ACM/IEEE Design Automation Conference)[https://www.dac.com/], June 2024.
+    arxiv: https://arxiv.org/abs/2405.18832
+    notes: to appear
+    image: ./assets/img/teaser_example_2.png
+    badge: primary
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+
+
+  - title: Virtual keyboards with real-time and robust deep learning-based gesture recognition
+    authors: Tae-Ho Lee, Sunwoong Kim, <strong>Taehyun Kim</strong>, Jin-Sung Kim, Hyuk-Jae Lee
+    conference_short: THMS
+    conference: IEEE Transactions on Human-Machine Systems, Volume 52 Issue 4, April 2022.
+    proceeding: https://ieeexplore.ieee.org/abstract/document/9764762
+    image: ./assets/img/teaser_example_2.png
+    badge: warning
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    # notes: Early Accept
+
+
+  - title: Smart refrigerator inventory management using convolutional neural networks
+    authors: Tae-Ho Lee, Shin-Woo Kang, <strong>Taehyun Kim</strong>, Jin-Sung Kim, Hyuk-Jae Lee
+    conference_short: AICAS-3
+    conference: (2021 IEEE 3rd International Conference on Artificial Intelligence Circuits and Systems)[https://catavault.ieee-cas.org/events/aicas-2021], June 2021.
+    proceeding: https://ieeexplore.ieee.org/abstract/document/9458527
+    image: ./assets/img/teaser_example_2.png
+    badge: info
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    # notes: Early Accept
+
+
+  - title: "GradPIM: A Practical Processing-in-DRAM Architecture for Gradient Descent"
+    authors: Heesu Kim, Hanmin Park, <strong>Taehyun Kim</strong>, Kwanheum Cho, Eojin Lee, Soojung Ryu, Hyuk-Jae Lee, Kiyoung Choi, Jinho Lee
+    conference_short: HPCA-27
+    conference: (27th IEEE International Symposium on High-Performance Computer Architecture)[https://hpca-conf.org/2021/], Jan. 2021.
+    arxiv: https://arxiv.org/abs/2102.07511
+    proceeding: https://ieeexplore.ieee.org/abstract/document/9407195
+    image: ./assets/img/teaser_example_2.png
+    badge: success
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    # notes: Early Accept

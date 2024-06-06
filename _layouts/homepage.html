@@ -56,6 +56,9 @@
         {% if site.email %}
         <email>{{ site.email }}</email>
         {% endif %}
+        {% if site.email2 %}
+        <email>{{ site.email2 }}</email>
+        {% endif %}
 
         <br>
         <br>
@@ -81,6 +84,12 @@
         {% if site.linkedin %}
         <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
           <i class="fab fa-linkedin"></i>
+        </a>
+        {% endif %}
+
+        {% if site.orcid %}
+        <a style="margin: 0 5px 0 0" href="{{ site.orcid }}">
+          <i class="fab fa-orcid"></i>
         </a>
         {% endif %}
 
