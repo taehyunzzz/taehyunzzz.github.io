@@ -9,8 +9,8 @@
 <h4 style="margin:0 10px 0;">Teaching Assistant</h4>
 
 <ul style="margin:0 0 5px;">
-  <li>Creative engineering design (2019-2022)
-  <li>Undergraduate graduation project (2024)
+  <li>Creative engineering design (2019-2022)</li>
+  <li>Undergraduate graduation project (2024)</li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Republic of Korea Army</h4>
