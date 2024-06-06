@@ -1,174 +1,135 @@
 <style>
     .label {
-    display: inline-block;
-    text-decoration: none;
-    padding: 0.2em 0.6em 0.3em;
-    font-size: 75%;
-    font-weight: bold;
-    white-space: nowrap;
-    color: #fff;
-    -webkit-border-radius: 0.6em;
-    -moz-border-radius: 0.6em;
-    border-radius: 0.6em;
+        display: inline-block;
+        text-decoration: none;
+        padding: 0.2em 0.6em 0.3em;
+        font-size: 75%;
+        font-weight: bold;
+        white-space: nowrap;
+        color: #fff;
+        -webkit-border-radius: 0.6em;
+        -moz-border-radius: 0.6em;
+        border-radius: 0.6em;
     }
+
     .label:hover {
-    color: #fff;
-    text-decoration: none;
-    cursor: pointer;
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
     }
+
     .label:focus {
-    color: #fff;
-    text-decoration: none;
-    cursor: pointer;
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
     }
 
     .label-default {
-    background-color: #777;
+        background-color: #777;
     }
+
     .label-default:hover,
     .label-default:focus {
-    background-color: #5e5e5e;
+        background-color: #5e5e5e;
     }
+
     .label-primary {
-    background-color: #428bca;
+        background-color: #428bca;
     }
+
     .label-primary:hover,
     .label-primary:focus {
-    background-color: #3071a9;
+        background-color: #3071a9;
     }
+
     .label-success {
-    background-color: #5cb85c;
+        background-color: #5cb85c;
     }
+
     .label-success:hover,
     .label-success:focus {
-    background-color: #449d44;
+        background-color: #449d44;
     }
+
     .label-info {
-    background-color: #5bc0de;
+        background-color: #5bc0de;
     }
+
     .label-info:hover,
     .label-info:focus {
-    background-color: #31b0d5;
+        background-color: #31b0d5;
     }
 
     .label-warning {
-    background-color: #f0ad4e;
+        background-color: #f0ad4e;
     }
+
     .label-warning:hover,
     .label-warning:focus {
-    background-color: #ec971f;
+        background-color: #ec971f;
     }
 
     .label-danger {
-    background-color: #d9534f;
+        background-color: #d9534f;
     }
+
     .label-danger:hover,
     .label-danger:focus {
-    background-color: #c9302c;
+        background-color: #c9302c;
     }
 
     .label-others {
-    background-color: #3fbaac;
+        background-color: #3fbaac;
     }
+
     .label-others:hover,
     .label-others:focus {
-    background-color: #3fbaac;
+        background-color: #3fbaac;
     }
 </style>
 
 
 
 <div class="row g-5 mb-5">
-  <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
-    {% if page.title == "Home" %}
-      {% for item in site.data.publications.featured %}
+    <div>
+        <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
+        {% for item in site.data.publications.index %}
         <a class="label label-{{ item.label }} text-white" href="{{ item.homepage }}">
             {{ item.acronym }}
         </a>
-        <a><strong>{{ item.title }}</strong></a>
+        <a><strong>{{ item.title }}</strong></a><br>
 
-        <br>
+        <a>{{ item.authors }}</a><br>
 
         <a>
-            {{ item.authors }}
-        </a>
-
-        <br>
-
-        <a >
             {{ item.proceeding }} (<strong>{{ item.acronym }}</strong>),
             {{ item.place }},
             {{ item.date }}
         </a>
+
         <br>
         {% if item.others %}
-            {% if item.others.arxiv %}
-                <a href="{{ item.others.arxiv }}"><strong>arxiv</strong></a><span> </span>
-            {% endif %}
-            {% if item.others.proceeding %}
-                <a href="{{ item.others.proceeding }}"><strong>proceeding</strong></a><span> </span>
-            {% endif %}
-            {% if item.others.slides %}
-                <a href="{{ item.others.slides }}"><strong>slides</strong></a><span> </span>
-            {% endif %}
-            {% if item.others.poster %}
-                <a href="{{ item.others.poster }}"><strong>poster</strong></a><span> </span>
-            {% endif %}
-            {% if item.others.presentation %}
-                <a href="{{ item.others.presentation }}"><strong>presentation</strong></a><span> </span>
-            {% endif %}
-            {% if item.others.toappear %}
-                <span><i>(to appear)</i></span>
-            {% endif %}
+        {% if item.others.arxiv %}
+        <a href="{{ item.others.arxiv }}"><strong>arxiv</strong></a><span> </span>
+        {% endif %}
+        {% if item.others.proceeding %}
+        <a href="{{ item.others.proceeding }}"><strong>proceeding</strong></a><span> </span>
+        {% endif %}
+        {% if item.others.slides %}
+        <a href="{{ item.others.slides }}"><strong>slides</strong></a><span> </span>
+        {% endif %}
+        {% if item.others.poster %}
+        <a href="{{ item.others.poster }}"><strong>poster</strong></a><span> </span>
+        {% endif %}
+        {% if item.others.presentation %}
+        <a href="{{ item.others.presentation }}"><strong>presentation</strong></a><span> </span>
+        {% endif %}
+        {% if item.others.toappear %}
+        <span><i>(to appear)</i></span>
+        {% endif %}
         {% endif %}
         <br>
         <br>
-      {% endfor %}
-    {% else %}
-      {% for item in site.data.publications.index %}
-        <a class="label label-{{ item.label }} text-white" href="{{ item.homepage }}">
-            {{ item.acronym }}
-        </a>
-        <a><strong>{{ item.title }}</strong></a>
-
-        <br>
-
-        <a>
-            {{ item.authors }}
-        </a>
-
-        <br>
-
-        <a >
-            {{ item.proceeding }} (<strong>{{ item.acronym }}</strong>),
-            {{ item.place }},
-            {{ item.date }}
-        </a>
-        <br>
-        {% if item.others %}
-            {% if item.others.arxiv %}
-                <a href="{{ item.others.arxiv }}"><strong>arxiv</strong></a><span> </span>
-            {% endif %}
-            {% if item.others.proceeding %}
-                <a href="{{ item.others.proceeding }}"><strong>proceeding</strong></a><span> </span>
-            {% endif %}
-            {% if item.others.slides %}
-                <a href="{{ item.others.slides }}"><strong>slides</strong></a><span> </span>
-            {% endif %}
-            {% if item.others.poster %}
-                <a href="{{ item.others.poster }}"><strong>poster</strong></a><span> </span>
-            {% endif %}
-            {% if item.others.presentation %}
-                <a href="{{ item.others.presentation }}"><strong>presentation</strong></a><span> </span>
-            {% endif %}
-            {% if item.others.toappear %}
-                <span><i>(to appear)</i></span>
-            {% endif %}
-        {% endif %}
-        <br>
-        <br>
-      {% endfor %}
-    {% endif %}
-  </div>
+        {% endfor %}
+    </div>
 </div>
