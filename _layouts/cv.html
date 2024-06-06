@@ -8,8 +8,9 @@ layout: default
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">CV</h3>
 
+    <!-- Education -->
     <div class="row g-5 mb-5">
-      <div class="col-md-2">
+      <div class="col-lg-2">
         <h4>Education</h4>
       </div>
       <div class="col-md-10">
@@ -20,11 +21,12 @@ layout: default
       </div>
     </div>
 
+    <!-- Courses -->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4>Courses</h4>
       </div>
-      <div class="col-md-10">
+      <div class="col-lg-10">
         {% for section in site.data.cv.courses %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
@@ -32,17 +34,32 @@ layout: default
       </div>
     </div>
 
+    <!-- Professional Skills -->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4>Professional Skills</h4>
+        <h4>Skills</h4>
       </div>
-      <div class="col-md-10">
+      <div class="col-lg-10">
         {% for section in site.data.cv.skills %}
-          <p class="fw-bold text-lg-start">{{ section.title }}</p>
+          <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
       </div>
     </div>
+
+    <!-- Professional Services -->
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Services</h4>
+      </div>
+      <div class="col-lg-10">
+        {% for section in site.data.cv.services %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+      </div>
+    </div>
+
 
   </div>
 </div>
