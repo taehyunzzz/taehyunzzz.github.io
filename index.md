@@ -8,7 +8,8 @@ My name is Taehyun Kim and I am pursuing a Ph.D. degree in ECE, Seoul National U
 
 ## Research Interests
 
-- **Large Transformer Models:** language, vision, multi-modal
+- **Large Transformer Models:** Language, Vision, Multi-modal AI
+- **Efficient AI:** Parameter-Efficient Finetuning (PEFT)
 - **Processing-in-Memory:** Processing-in-Memory (PIM) & near-data processing (NDP)
 
 ## News
