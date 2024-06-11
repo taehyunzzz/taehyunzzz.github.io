@@ -17,7 +17,7 @@ main:
     arxiv: https://arxiv.org/abs/2405.18832
     notes: (to appear)
     image: ./assets/img/monde-teaser.png
-    slides: ./asserts/files/1260FINAL.pptx
+    slides: ./assets/files/1260FINAL.pptx
     badge: 1
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
