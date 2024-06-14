@@ -18,6 +18,7 @@ main:
     notes: (to appear)
     image: ./assets/img/monde-teaser.png
     slides: ./assets/files/1260FINAL.pptx
+    poster: ./assets/files/1260POSTERv3.pdf
     badge: 1
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
