@@ -11,7 +11,7 @@ main:
   #   notes: Early Accept
 
   - title: "MoNDE: Mixture of Near-Data Experts for Large-Scale Sparse Models"
-    authors: <strong>Taehyun Kim</strong>, Kwanseok Choi, Youngmock Cho, Jaehoon Cho, Hyuk-Jae Lee, Jaewoong Sim"
+    authors: <strong>Taehyun Kim</strong>, Kwanseok Choi, Youngmock Cho, Jaehoon Cho, Hyuk-Jae Lee, Jaewoong Sim
     conference_short: DAC-61
     conference: <a ref="https://www.dac.com/">61th ACM/IEEE Design Automation Conference</a>, June 2024.
     arxiv: https://arxiv.org/abs/2405.18832
