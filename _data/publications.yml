@@ -15,7 +15,7 @@ main:
     conference_short: DAC-61
     conference: <a ref="https://www.dac.com/">61th ACM/IEEE Design Automation Conference</a>, June 2024.
     arxiv: https://arxiv.org/abs/2405.18832
-    notes: (to appear)
+    proceeding: https://dl.acm.org/doi/10.1145/3649329.3655951
     image: ./assets/img/monde-teaser.png
     slides: ./assets/files/1260FINAL.pptx
     poster: ./assets/files/1260POSTERv3.pdf
